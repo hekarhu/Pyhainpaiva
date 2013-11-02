@@ -13,7 +13,6 @@
     </head>
     <body>
         <h1>Thank you for using our services.</h1>
-        <p><br><br><br></p>
-        <li><a href="lopetus.jsp">We hope you are truly amazed of our journey through theUltimateMeatingApp.<br>Thank you!</a></li>
+        <img border="0" src="http://i.imgur.com/5zKXz.gif" alt="Pulpit rock" width="304" height="228">
     </body>
 </html>

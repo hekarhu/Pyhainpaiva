@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="docs-assets/ico/favicon.png">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>the most ultimate meeting planner online, guaranteed</title>
+    <title>Static Top Navbar Example for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="navbar-static-top.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -28,43 +28,33 @@
 
   <body>
 
-<nav class="navbar navbar-default" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">theUltimateMeetingApplication</a>
-  </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="addmeat.jsp">Add les meatings.</a></li>
-      <li><a href="wahtmeat.jsp">Waht meetings?</a></li>
-      <li><a href="proj.jsp">We have also contributed to these:</a></li>
-    </ul>
-  </div><!-- /.navbar-collapse -->
-</nav>
+    
 
 
     <div class="container">
 
-      <div class="starter-template">
-        <h1>Hello dear customer, and welcome.</h1>
-        <p class="lead">We provide the best online services for planning meetings, guaranteed.<br> The service is reliable and there are no security problems, guaranteed as well.</p>
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Kysymys:</h1>
+        <p>Haluatko kevyemmän mobiili...</p>
+     <div class="jumbotron">
+        <p><a class="btn btn-lg btn-success" href="mobiili.jsp" role="button">Nokia</a></p>
+      </div>
+      </div>
+            <div class="jumbotron">
+        <h1>Siirry normaaliversioon:</h1>
+     <div class="jumbotron">
+        <p><a class="btn btn-lg btn-success" href="etusivu.jsp" role="button">Let's go!</a></p>
+      </div>
       </div>
 
-    </div><!-- /.container -->
+    </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
   </body>
 </html>

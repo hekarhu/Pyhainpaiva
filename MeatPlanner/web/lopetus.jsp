@@ -1,6 +1,6 @@
 <%-- 
-    Document   : addmeat
-    Created on : Nov 2, 2013, 3:34:33 PM
+    Document   : lopetus
+    Created on : Nov 2, 2013, 4:45:18 PM
     Author     : hekarhu
 --%>
 
@@ -12,8 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Thank you for using our services.</h1>
-        <p><br><br><br></p>
-        <li><a href="lopetus.jsp">We hope you are truly amazed of our journey through theUltimateMeatingApp.<br>Thank you!</a></li>
+        <img border="0" src="http://i.imgur.com/0SBuk.gif" alt="Pulpit rock" width="304" height="228">
     </body>
 </html>

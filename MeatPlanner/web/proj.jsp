@@ -95,6 +95,9 @@
      <a href="images/8.jpg" title="Orange" data-gallery>
         <img src="images/8.jpg" alt="Orange">
     </a>
+         <a href="http://i.imgur.com/R6qrD.gif" title="Orange" data-gallery>
+        <img src="http://i.imgur.com/R6qrD.gif" alt="Orange">
+    </a>
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

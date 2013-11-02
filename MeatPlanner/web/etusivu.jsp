@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="docs-assets/ico/favicon.png">
 
-    <title>le meat?</title>
+    <title>the most ultimate meeting planner online, guaranteed</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
@@ -28,19 +28,37 @@
 
   <body>
 
+<nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">theUltimateMeetingApplication</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="addmeat.jsp">Add les meatings.</a></li>
+      <li><a href="wahtmeat.jsp">Waht meetings?</a></li>
+      <li><a href="proj.jsp">We have also contributed to these:</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
 
     <div class="container">
 
       <div class="starter-template">
-        <h1>We feel sorry for you poor user, but no</h1>
+        <h1>Hello dear customer, and welcome.</h1>
+        <p class="lead">We provide the best online services for planning meetings, guaranteed.<br> The service is reliable and there are no security problems, guaranteed as well.</p>
       </div>
 
     </div><!-- /.container -->
-
-<img border="0" src="http://hd.wallpaperswide.com/thumbs/piece_of_meat_cartoon-t2.jpg" alt="Pulpit rock" width="304" height="228">
-<h1>-ing for you today.</h1>
-<li><a href="etusivu.jsp">I would like to go back, please.</a></li>
-
 
 
     <!-- Bootstrap core JavaScript
