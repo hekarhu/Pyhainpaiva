@@ -12,7 +12,7 @@
         <title>Events</title>
     </head>
     <body>
-        <a href="${pageContext.request.contextPath}/app/">Back to index</a>
+        <a href="${pageContext.request.contextPath}/app/">huhhutihuuu</a>
         <h1>Events</h1>
         
         <ul>

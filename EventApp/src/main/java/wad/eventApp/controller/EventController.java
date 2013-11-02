@@ -31,7 +31,7 @@ public class EventController {
             BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             model.addAttribute("event", event);
-            return "createEvent";
+            return "index";
         }
   
         eventservice.create(event);

@@ -3,7 +3,7 @@
     Created on : Nov 2, 2013, 12:55:30 PM
     Author     : hekarhu
 --%>
-
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -23,6 +23,7 @@
                 Start <form:input path="start" id="start"/> <form:errors path="start" /><br/>
                 End <form:input path="end" id="end"/> <form:errors path="end" /><br/>
                 Topic <form:input path="topic" id="topic"/> <form:errors path="topic" /><br/>
+                
                 
                 <input type="submit" value = "create"/>
             </form:form>
