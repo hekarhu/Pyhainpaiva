@@ -9,13 +9,15 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.NotNull;
+import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.format.annotation.DateTimeFormat;
 
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
+ 
 
 /**
  *
@@ -24,20 +26,23 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Entity
 @Table(name = "Event")
 public class Event implements Serializable {
-
-    @Id
+@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
+    @Column(name="id")
     private Long id;
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(pattern = "d.M.y H.m")
-    @Column(name = "startDate")
+    @Column(name ="startDate") 
+    @NotNull
     private Date start;
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(pattern = "d.M.y H.m")
-    @Column(name = "endDate")
+    @Column(name="endDate")
+    @NotNull
     private Date end;
-    @Column(name = "topic")
+    @NotNull
+    @NotBlank
+    @Column(name="topic")
     private String topic;
 
     public Long getId() {

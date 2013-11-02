@@ -18,13 +18,13 @@
         
         <h2>New event</h2>
        
-        <p>Example of date format: 25.9.2013 03.30</p>
+        <p>Example of date format: 02.11.2013 18.00</p>
         <form:form commandName="event" action="${pageContext.request.contextPath}/app/events" method="POST" >
                 Start <form:input path="start" id="start"/> <form:errors path="start" /><br/>
                 End <form:input path="end" id="end"/> <form:errors path="end" /><br/>
                 Topic <form:input path="topic" id="topic"/> <form:errors path="topic" /><br/>
                 
-                <input type="submit"/>
+                <input type="submit" value = "create"/>
             </form:form>
         
     </body>

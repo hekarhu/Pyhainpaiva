@@ -17,7 +17,7 @@
         
         <ul>
             <c:forEach var="event" items="${events}">
-                <li><a href="${pageContext.request.contextPath}/app/events/${sleep.id}">Sleep with ID ${event.id}</a></li>
+                <li><a href="${pageContext.request.contextPath}/app/events/${event.id}">HMMMM ${event.id}</a></li>
             </c:forEach>
         </ul>
     </body>
