@@ -13,6 +13,6 @@
     </head>
     <body>
         <h1>Thank you for using our services.</h1>
-        
+        <img border="0" src="http://i.imgur.com/R6qrD.gif" alt="Pulpit rock" width="304" height="228">
     </body>
 </html>

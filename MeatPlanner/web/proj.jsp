@@ -17,7 +17,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
 <meta charset="utf-8">
-<title>Bootstrap Image Gallery</title>
+<title>Les photographes perfectos</title>
 <meta name="description" content="Bootstrap Image Gallery is an extension to blueimp Gallery, a touch-enabled, responsive and customizable image and video gallery. It displays images and videos in the modal dialog of the Bootstrap framework, features swipe, mouse and keyboard navigation, transition effects, fullscreen support and on-demand content loading and can be extended to display additional content types.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
@@ -27,17 +27,7 @@
 <body>
 
 <div class="container">
-    <h1>Bootstrap Image Gallery Demo</h1>
-
-    <form class="form-inline">
-
-        <div class="form-group">
-            <button id="image-gallery-button" type="button" class="btn btn-primary btn-lg">
-                <i class="glyphicon glyphicon-picture"></i>
-                Launch Image Gallery
-            </button>
-        </div>
-    </form>
+    <h1>Une gallery des photographes</h1>
     <br>
     <!-- The container for the list of example images -->
     <div id="links"></div>
@@ -92,6 +82,18 @@
     </a>
     <a href="images/eventApp.png" title="Orange" data-gallery>
         <img src="images/eventApp.png" alt="Orange">
+    </a>
+     <a href="images/5.jpg" title="Orange" data-gallery>
+        <img src="images/5.jpg" alt="Orange">
+    </a>
+     <a href="images/6.jpg" title="Orange" data-gallery>
+        <img src="images/6.jpg" alt="Orange">
+    </a>
+     <a href="images/7.jpg" title="Orange" data-gallery>
+        <img src="images/7.jpg" alt="Orange">
+    </a>
+     <a href="images/8.jpg" title="Orange" data-gallery>
+        <img src="images/8.jpg" alt="Orange">
     </a>
 </div>
 

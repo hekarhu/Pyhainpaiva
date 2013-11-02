@@ -32,13 +32,14 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>We feel sorry for you poor user, but no meating for you today.</h1>
+        <h1>We feel sorry for you poor user, but no</h1>
       </div>
 
     </div><!-- /.container -->
 
 <img border="0" src="http://hd.wallpaperswide.com/thumbs/piece_of_meat_cartoon-t2.jpg" alt="Pulpit rock" width="304" height="228">
-<h1>-ing.</h1>
+<h1>-ing for you today.</h1>
+<li><a href="index.jsp">I would like to go back, please.</a></li>
 
 
 
