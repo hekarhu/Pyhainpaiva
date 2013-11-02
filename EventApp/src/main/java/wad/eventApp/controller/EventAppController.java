@@ -18,9 +18,6 @@ public class EventAppController {
     public String eventApp() {
         return "frontPage";         
     }   
-     @RequestMapping(value = "createEvent", method = RequestMethod.GET)
-    public String createEvent() {
-        return "createEvent";        
-    }
+
 } 
    
