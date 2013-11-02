@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class EventAppController {
     @RequestMapping(value = "frontPage", method = RequestMethod.GET)
     public String eventApp() {
-        return "frontPage";         
+        return "createEvent";         
     }   
 
 } 

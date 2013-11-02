@@ -13,11 +13,6 @@
     </head>
     <body>
         <h1>EventApp!</h1>
-        <form method="GET" action="http://t-avihavai.users.cs.helsinki.fi/lets/See">
-  <label>Käyttäjätunnus: <input type="text" name="tunnus" /></label>
-  <label>Salasana: <input type="password" name="salasana" /></label>
-  <input type="submit" value ="Log In" />
-</form>
          <form method="GET" action="${pageContext.request.contextPath}/app/createEvent"/>
             <input type="submit" value="Create Event"/>
         </form>
